@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails TODOsValidation: development" uuid="bcc447fe-3790-4dc7-bb4d-fad7ce3225ef">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails TODOsValidation: test" uuid="338f2ddd-ead9-427d-85e7-af93bb3c586c">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails TODOsValidation: production" uuid="0de5822a-b13d-4a85-9304-35891623017e">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

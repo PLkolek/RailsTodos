@@ -1,0 +1,45 @@
+<%= form_for(@todo) do |f| %>
+  <% if @todo.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@todo.errors.count, "error") %> prohibited this todo from being saved:</h2>
+
+      <ul>
+      <% @todo.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :done %><br>
+    <%= f.check_box :done %>
+  </div>
+  <div class="field">
+    <%= f.label :priority %><br>
+    <%= f.select :priority, options_for_select(@priorities.collect { |s| [s[0].humanize, s[0]] }, selected: @todo.priority) %>
+  </div>
+  <div class="field">
+    <%= f.label :scheduled %><br>
+    <%= f.check_box :scheduled %>
+  </div>
+  <div class="field">
+    <%= f.label :time_from%><br>
+    <%= f.time_select :time_from %>
+  </div>
+  <div class="field">
+    <%= f.label :time_to%><br>
+    <%= f.time_select :time_to %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="239897111">
+    <data-source source="LOCAL" name="Rails TODOsValidation: development" uuid="bcc447fe-3790-4dc7-bb4d-fad7ce3225ef">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:TODOsValidation_development</jdbc-url>
+      <user-name>postgres</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails TODOsValidation: test" uuid="338f2ddd-ead9-427d-85e7-af93bb3c586c">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:TODOsValidation_test</jdbc-url>
+      <user-name>postgres</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails TODOsValidation: production" uuid="0de5822a-b13d-4a85-9304-35891623017e">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:TODOsValidation_production</jdbc-url>
+      <user-name>TODOsValidation</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddffedfe5dfeedfe5dff9dffcdfebdfe6dfe3dfeedfebdffedfe3dfe5dfe4dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
